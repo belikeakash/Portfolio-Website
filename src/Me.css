@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+* {
+  margin: 0;
+  padding: 0;
+  /* background: #000; */
+}
+.me{
+    background: #000;
+    width: 100%;
+}
+
+.me_header {
+  display: flex;
+  height: auto;
+  background-color: black;
+}
+.me_header1 {
+  width: 50%;
+  /* color: #5cdb95; */
+  color: #ff4e4e;
+  background-color: black;
+}
+.me_header1 > h1 {
+  margin-top: 70px;
+  margin-left: 70px;
+  font-size: 47px;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+span {
+  color: white;
+  font-weight: 600;
+}
+.me_header3 {
+  margin-top: 70px;
+  margin-left: 70px;
+  font-size: 39px;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  color: #0b5f2b;
+  text-decoration: underline;
+}
+.me_header4 {
+  margin-top: 30px;
+  margin-left: 70px;
+  font-size: 26px;
+  text-align: center;
+  font-family: "Comfortaa";
+  color: #53c980;
+}
+.me_header2 {
+  width: 50%;
+  opacity: 1;
+}
+.me_img {
+  margin-top: 100px;
+  margin-left: 100px;
+  object-fit: contain;
+  width: 580px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .me_img{
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .me{
+    display: block;
+  }
+  .me_header{
+    display: flex;
+    flex-direction: column;
+  }
+  .me_header1{
+    width: 100%;
+  }
+  .me_header1 > h1{
+    width: 90%;
+    margin: 30px auto;
+    font-size: 30px;
+    
+  }
+  .me_header3{
+    margin: 30px auto;
+    font-size: 24px;
+  }
+  .me_header4{
+    margin: 41px 20px;
+    font-size: 26px;
+  }
+}
