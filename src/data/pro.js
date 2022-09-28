@@ -1,19 +1,19 @@
 const menu = [
     {
       id: 1,
-      title: 'amazon clone',
-      category: 'React',
-      url: 'https://amzon-r3.web.app/',
-      img: './images/amazonss.jpeg',
-      desc: `It's an amazon clone build upon reactjs and using context api `,
+      title: 'News App using Next.js',
+      category: 'Next.js',
+      url: 'https://newsbyakash.vercel.app/',
+      img: './images/news.png',
+      desc: `News App build using NextJs used SSR for better SEO results `,
     },
     {
       id: 2,
-      title: 'Chat Web App',
+      title: 'Fictional Character App',
       category: 'JavaScript',
-      url: 'https://akash-cchat.herokuapp.com/',
-      img: './images/chatss.jpeg',
-      desc: `It's a chatting application which can be used for conversation between any two points in world`,
+      url: 'https://belikeakash.github.io/fiction-characters/',
+      img: './images/fic.jpg',
+      desc: `Web App to display various information about fictinal Characters`,
     },
     {
       id: 3,
@@ -57,10 +57,10 @@ const menu = [
     },
     {
       id: 8,
-      title: 'Hulu App clone',
+      title: 'Among Us',
       category: 'React',
-      url: 'https://juststream-b70a8.web.app/',
-      img: './images/huluss.jpeg',
+      url: 'https://belikeakash.github.io/among-us/',
+      img: './images/among.jpg',
       desc: `Hulu is a streaming app and in it's clone you can see the trending movies, new movies and much more it is build using tmdb api `,
     },
     

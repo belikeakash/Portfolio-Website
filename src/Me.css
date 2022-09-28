@@ -5,20 +5,20 @@
   /* background: #000; */
 }
 .me{
-    background: #000;
+    background: hsl(205, 63%, 48%);
     width: 100%;
 }
 
 .me_header {
   display: flex;
   height: auto;
-  background-color: black;
+  background-color: hsl(205, 63%, 48%);
 }
 .me_header1 {
   width: 50%;
   /* color: #5cdb95; */
-  color: #ff4e4e;
-  background-color: black;
+  color: #ffffff;
+  background-color: hsl(205, 63%, 48%);
 }
 .me_header1 > h1 {
   margin-top: 70px;
@@ -37,7 +37,7 @@ span {
   font-size: 39px;
   text-align: center;
   font-family: "Comfortaa", cursive;
-  color: #0b5f2b;
+  color: #c8f3d8;
   text-decoration: underline;
 }
 .me_header4 {
@@ -46,7 +46,7 @@ span {
   font-size: 26px;
   text-align: center;
   font-family: "Comfortaa";
-  color: #53c980;
+  color: #c8f8db;
 }
 .me_header2 {
   width: 50%;
@@ -57,6 +57,10 @@ span {
   margin-left: 100px;
   object-fit: contain;
   width: 580px;
+}
+
+.me_header4 > ul {
+  font-size: 22px;
 }
 
 @media only screen and (max-width: 1300px) {
