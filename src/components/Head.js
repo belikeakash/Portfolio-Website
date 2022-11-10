@@ -1,11 +1,12 @@
 import React from "react";
 import "../styles/Head.css";
+import newImg from 'images/img4.png'
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 function Head() {
   return (
     <div className="App">
-      <div className="headerd" style={{}}>
+      <div className="headerd" style={{background:newImg}}>
         <div className="header_name">
           <div className="header_name_h1">
             Hi, <span>I'm Akash</span>
