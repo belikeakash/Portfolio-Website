@@ -1,33 +1,27 @@
+
+
 .headerd{
-  background: url('D:\rv\portfolio\src\media\img4.png');
-  
+  background: url('../media/img4.png');
 
   }
   
   .header_name{
-  /* position: absolute; */
+
   width: 100%;
-  /* width: 50%; */
-  /* left: 44%; */
-  /* top: 60; */
-  /* margin: 10 auto; */
-  /* text-align: center; */
+
   
   z-index: 1;
   }
   
   .header_name_h1{
     padding-top: 200px;
-    /* margin-top: 200px; */
     width: 50%;
     margin-left: 100px;
-    /* text-align: center; */
     font-size: 44px;
     color: rgb(255, 255, 255);
     font-weight: 600;
   }
   .header_name_info{
-    /* margin-top: 100px; */
     width: 80%;
     margin-left: 100px;
     
@@ -46,13 +40,8 @@
     margin-left: 100px;
     margin-top: 40px;
     transition: all 1s;
-    /* width: 300px; */
-    /* display: flex; */
   }
 
-  /* .header_icons:hover{
-    transform: scale(1.2);
-  } */
   .header-more-info{
     width: 80%;
     margin-left: 100px;
