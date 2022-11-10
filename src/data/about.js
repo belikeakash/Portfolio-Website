@@ -4,18 +4,18 @@ const people = [
     image:
       'https://cdn.pixabay.com/photo/2015/09/09/21/12/monitor-933392_960_720.jpg',
     name: 'FRONTEND DEVELOPMENT',
-    title: 'React / JavaScript / CSS',
+    title: 'Preffered Language - Javascript (ReactJs , NextJs)',
     quote:
-      "I'm a React Front-end developer who can develope new user-facing features and build reusable componenets and can also optimize components for maximum performance across variety of web capable devices and browsers.",
+      "",
   },
   {
     id: 2,
     image:
       'https://cdn.pixabay.com/photo/2015/08/21/13/37/programming-898961__340.jpg',
-    name: 'Programming',
-    title: 'C / C++ / Python',
+    name: 'Data Structure and Algorithm',
+    title: 'Preffered Language - C++',
     quote:
-      "A programmer with noob programming skills across variety of programming languages. I'm a guy who is good at Python, better at C and best at C++",
+      "I have been doing comptetive programming since 3 years in between time I grew interest in Data Structure and Algorithm and started solving questions on LEETCODE and GEEKS FOR GEEKS",
   },
   {
     id: 3,

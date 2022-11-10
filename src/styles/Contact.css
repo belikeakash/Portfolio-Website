@@ -1,0 +1,32 @@
+.contact-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-flex > img {
+  height: 300px;
+  width: fit-content;
+}
+
+.contact-icons-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-icons {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #0077b5;
+}
+
+h3 {
+  text-align: center;
+  color: green;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}

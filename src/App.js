@@ -1,11 +1,11 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Head from "./Head";
-import Header from "./Header";
-import Mid from "./Mid";
-import Project from "./Projects";
-import Me from "./Me";
-import Contact from "./Contact";
+import Head from "./components/Head";
+import Header from "./components/Header";
+import Project from "./components/Projects";
+import Me from "./components/Me";
+import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
           <Route path="/">
             <Header />
             <Head />
-            <Mid />
+            <Skills />
             <Project />
           </Route>
         </Switch>
