@@ -57,7 +57,7 @@
   width: 300px;
   /* flex: 50%; */
   height: 300px;
-  margin: 0 30px;
+  margin: 0 auto;
 }
 
 .project-card > img {
